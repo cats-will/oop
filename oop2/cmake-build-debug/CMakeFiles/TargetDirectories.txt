@@ -1,0 +1,3 @@
+C:/Users/AStr/CLionProjects/oop2/cmake-build-debug/CMakeFiles/oop2.dir
+C:/Users/AStr/CLionProjects/oop2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/AStr/CLionProjects/oop2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
