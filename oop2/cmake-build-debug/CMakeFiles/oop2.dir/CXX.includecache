@@ -6,11 +6,27 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/AStr/CLionProjects/oop2/main.cpp
-iostream
--
+C:/Users/AStr/Documents/GitHub/oop/oop2/Facade.h
+Good.h
+C:/Users/AStr/Documents/GitHub/oop/oop2/Good.h
+
+C:/Users/AStr/Documents/GitHub/oop/oop2/Good.h
 string
 -
-utility
+iostream
 -
+
+C:/Users/AStr/Documents/GitHub/oop/oop2/Shipment.h
+Good.h
+C:/Users/AStr/Documents/GitHub/oop/oop2/Good.h
+
+C:/Users/AStr/Documents/GitHub/oop/oop2/Shop.h
+Shipment.h
+C:/Users/AStr/Documents/GitHub/oop/oop2/Shipment.h
+
+C:/Users/AStr/Documents/GitHub/oop/oop2/main.cpp
+Shop.h
+C:/Users/AStr/Documents/GitHub/oop/oop2/Shop.h
+Facade.h
+C:/Users/AStr/Documents/GitHub/oop/oop2/Facade.h
 

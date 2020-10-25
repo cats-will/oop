@@ -1,19 +1,27 @@
 #pragma  once
 
-#include "Facade.h"
+#include <string>
+#include <iostream>
 
-class Good : public Facade {
-protected:
+class Good {
+private:
     int UUID_;
     std::string name_;
-    double price_;
-    int amount_ = 0;
 public:
     Good() = default;
 
-    Good(int UUID, std::string name, double price, int amount) : UUID_(UUID), name_(std::move(name)), price_(price), amount_(amount) {}
+    Good(int UUID, std::string name) : UUID_(UUID), name_(name) {}
+
+    int Get_UUID() const {
+        return UUID_;
+    }
+
+    std::string Get_Name() const {
+        return name_;
+    }
+
 
     friend std::ostream& operator<<(std::ostream& out, Good &good) {
-        return out << good.name_ << " {UUID = " << good.UUID_ << ", price = " << good.price_ << ", amount = " << good.amount_ << "}\n";
+        return out << "UUID:" << good.UUID_ << ", " << "name:" << good.name_ << '\n';
     }
 };
