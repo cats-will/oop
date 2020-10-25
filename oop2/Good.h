@@ -2,6 +2,8 @@
 
 #include <string>
 #include <iostream>
+#include <list>
+#include <fstream>
 
 class Good {
 private:
@@ -19,7 +21,6 @@ public:
     std::string Get_Name() const {
         return name_;
     }
-
 
     friend std::ostream& operator<<(std::ostream& out, Good &good) {
         return out << "UUID:" << good.UUID_ << ", " << "name:" << good.name_ << '\n';

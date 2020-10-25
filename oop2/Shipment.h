@@ -18,7 +18,7 @@ public:
         return price_;
     }
 
-    int Get_Amount() const {
+    int& Get_Amount() {
         return amount_;
     }
 };

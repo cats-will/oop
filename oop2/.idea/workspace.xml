@@ -40,7 +40,9 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
@@ -73,7 +75,7 @@
       <workItem from="1603329798833" duration="4095000" />
       <workItem from="1603491363301" duration="183000" />
       <workItem from="1603540344668" duration="1419000" />
-      <workItem from="1603632350746" duration="16461000" />
+      <workItem from="1603632350746" duration="32643000" />
     </task>
     <servers />
   </component>
@@ -81,22 +83,26 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1236" height="254" key="GridCell.Tab.0.bottom" timestamp="1603648753572">
+    <state x="407" y="292" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603660370099">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="254" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1603648753572" />
-    <state width="1236" height="254" key="GridCell.Tab.0.center" timestamp="1603648753572">
+    <state x="407" y="292" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.984@0.0.1280.984" timestamp="1603660370099" />
+    <state width="1236" height="192" key="GridCell.Tab.0.bottom" timestamp="1603665352594">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="254" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1603648753572" />
-    <state width="1236" height="254" key="GridCell.Tab.0.left" timestamp="1603648753571">
+    <state width="1236" height="192" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1603665352594" />
+    <state width="1236" height="192" key="GridCell.Tab.0.center" timestamp="1603665352593">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="254" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1603648753571" />
-    <state width="1236" height="254" key="GridCell.Tab.0.right" timestamp="1603648753572">
+    <state width="1236" height="192" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1603665352593" />
+    <state width="1236" height="192" key="GridCell.Tab.0.left" timestamp="1603665352593">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="254" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1603648753572" />
+    <state width="1236" height="192" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1603665352593" />
+    <state width="1236" height="192" key="GridCell.Tab.0.right" timestamp="1603665352593">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1236" height="192" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1603665352593" />
     <state width="1236" height="319" key="GridCell.Tab.1.bottom" timestamp="1603636686557">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -113,9 +119,17 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1236" height="319" key="GridCell.Tab.1.right/0.0.1280.984@0.0.1280.984" timestamp="1603636686556" />
-    <state x="225" y="158" key="SettingsEditor" timestamp="1603632564693">
+    <state x="196" y="148" key="SettingsEditor" timestamp="1603655470489">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="225" y="158" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1603632564693" />
+    <state x="196" y="148" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1603655470489" />
+    <state x="296" y="221" key="run.anything.popup" timestamp="1603654511703">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="296" y="221" key="run.anything.popup/0.0.1280.984@0.0.1280.984" timestamp="1603654511703" />
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1603665231339">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup/0.0.1280.984@0.0.1280.984" timestamp="1603665231339" />
   </component>
 </project>

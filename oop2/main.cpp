@@ -1,41 +1,34 @@
 #include "Shop.h"
 #include "Facade.h"
 
-int main() {
 
+int main() {
+    //Shop a = create();
+
+    std::cout << "If you want to add a shipment to the shop write \"add\"\n";
+    std::string var;
+    std::cin >> var;
+    /*  if(var == "add") {
+        add(a);
+    }
+    */
+
+/*
     Facade a;
 
     Good skirt = a.CreateGood(1, "blue skirt");
+    Good skirt1 = a.CreateGood(12, "green skirt");
 
-    Shipment party_1 = a.CreateShipment(skirt, 800, 15);
+    std::list<Shipment> party_1 = a.CreateShipment_as_list(skirt, 800, 15);
+    Shipment party_2 = a.CreateShipment(skirt, 800, 13);
+    Shipment party_3 = a.CreateShipment(skirt1, 800, 13);
 
-    Shop Bershka = a.CreateShop("Bershka", party_1);
+    Shop Bershka = a.CreateShop(1, "Bershka", party_1);
 
+    Bershka.add_to_shop(party_2);
+    Bershka.add_to_shop(party_3);
+    //a.add_shipments_from_file(Bershka);
 
-
-/*
-    Good a = {12, "blue skirt", 123.3, 4};
-
-    Good c = {12, "blue skirt", 123.3, 4};
-
-    Good b = {11, "green skirt", 123.3, 4};
-
-    std::map<std::string, Good> Bershka;
-    Bershka.emplace("Bershka", a);
-    Shop g = {Bershka};
-
-    g.add_to_shop(c);
-    g.add_to_shop(c);
-
-    std::cout << g;
-
-    std::vector<Good> items;
-    items.push_back(a);
-    items.push_back(c);
-    items.push_back(b);
-    Shop shop = {"Bershka", items};
-
-    std::cout << shop;
+    a.ShowShop(Bershka);
 */
-
 }
