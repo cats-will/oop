@@ -23,7 +23,13 @@ public:
         return  out;
     }
 
-
+    void change_price(Shop &shop, int id, double price) {
+        for(auto & it : shop.item_) {
+            if(it.Get_Good().Get_UUID() == id) {
+                it.Set_Price(price);
+            }
+        }
+    }
 
     void add_to_shop(Shipment &item) {
         for (auto & it : item_) {
@@ -32,6 +38,17 @@ public:
             }
             else {
                 item_.push_back(item);
+            }
+        }
+    }
+
+    void find_the_cheapest(std::list<Shop> &shops, int UUID) {
+
+        for(auto & it : shops) {
+            for(auto & it2 : it.item_) {
+                if(it2.Get_Good().Get_UUID() == UUID) {
+                    if()
+                }
             }
         }
     }

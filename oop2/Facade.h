@@ -95,10 +95,12 @@ public:
         std::cout << "Enter item's name: ";
         std::string item_name;
         std::cin >> item_name;
+        std::cout << '\n';
 
         std::cout << "Enter item's price: ";
         double price;
         std::cin >> price;
+        std::cout << '\n';
 
         std::cout << "Enter item's amount: ";
         int amount;

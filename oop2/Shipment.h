@@ -21,4 +21,8 @@ public:
     int& Get_Amount() {
         return amount_;
     }
+
+    void Set_Price(double price) {
+        price_ = price;
+    }
 };
