@@ -4,6 +4,10 @@
 #include <iostream>
 #include <list>
 #include <fstream>
+#include <limits>
+#include <cstddef>
+#include <utility>
+#include <vector>
 
 class Good {
 private:
@@ -12,7 +16,7 @@ private:
 public:
     Good() = default;
 
-    Good(int UUID, std::string name) : UUID_(UUID), name_(name) {}
+    Good(int UUID, std::string name) : UUID_(UUID), name_(std::move(name)) {}
 
     int Get_UUID() const {
         return UUID_;

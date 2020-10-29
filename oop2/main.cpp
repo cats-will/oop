@@ -3,12 +3,24 @@
 
 
 int main() {
+
     //Shop a = create();
+
+    Facade a;
+    Shop meh;
 
     Good skirt = {1, "blue skirt"};
     Good sweater = {22, "sweater"};
     Good suit = {6, "suit"};
     Good blouse = {4, "blouse"};
+
+    std::list<Good> parties;
+
+    parties.push_back(skirt);
+    parties.push_back(sweater);
+    parties.push_back(suit);
+    parties.push_back(blouse);
+
 
     Shipment party_1 = {sweater, 500, 10};
     Shipment party_2 = {skirt, 800, 13};
@@ -21,25 +33,49 @@ int main() {
     Bershka_items.push_back(party_2);
     Bershka_items.push_back(party_1);
     Bershka_items.push_back(party_5);
+    Bershka_items.push_back(party_3);
 
     std::list<Shipment> Sale_items;
     Sale_items.push_back(party_3);
     Sale_items.push_back(party_4);
     Sale_items.push_back(party_5);
+    Sale_items.push_back(party_1);
 
     std::list<Shipment> Topman_items;
     Topman_items.push_back(party_6);
     Topman_items.push_back(party_1);
     Topman_items.push_back(party_3);
+    Topman_items.push_back(party_5);
 
 
     Shop Bershka = {1, "Bershka", Bershka_items};
     Shop Sale = {2, "Sale", Sale_items};
     Shop Topman = {3, "Topman", Topman_items};
 
+
     std::list<Shop> shops;
 
-    /*
+    shops.push_back(Bershka);
+    shops.push_back(Sale);
+    shops.push_back(Topman);
+
+    int money = 2000;
+    //a.what_is_enough_for(Bershka, money);
+    //a.buy_a_party(Bershka, parties, 9);
+    Facade::buy_the_cheapest_party(shops, Bershka_items);
+
+
+/*
+    std::list<Shop> shops;
+
+    shops.push_back(Bershka);
+    shops.push_back(Sale);
+    shops.push_back(Topman);
+
+    a.find_the_cheapest(shops, skirt);
+    */
+
+/*
     Bershka.add_to_shop(party_2);
     std::cout << Bershka;
     Bershka.change_price(Bershka, 1, 500);
@@ -57,7 +93,6 @@ int main() {
 
 /*
     Facade a;
-
 
     Good skirt1 = a.CreateGood(12, "green skirt");
 

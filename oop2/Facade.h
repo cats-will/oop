@@ -32,23 +32,6 @@ public:
         std::cout << shop;
     }
 
-    void add_shipments_from_file(Shop &shop) {
-
-        std::ifstream fin("parties.txt");
-
-        Facade facade;
-        int ID;
-        std::string name;
-        double price;
-        int amount;
-
-        while(!fin.eof()) {
-            fin >> ID >> name >> price >> amount;
-            Shipment shipment = facade.CreateShipment(facade.CreateGood(ID, name), price, amount);
-            shop.add_to_shop(shipment);
-        }
-    }
-
     Shop Store_creation() {
         std::cout << "Store creation\n";
         std::cout << "Enter store's name: ";
@@ -111,7 +94,70 @@ public:
         shop.add_to_shop(shipment);
     }
 
+    void find_the_cheapest(std::list<Shop> &shops, Good &gd) {
+        Shop cheap_shop = Shop();
+        double cheap_price = std::numeric_limits<double>::max();
+        for (auto & it : shops) {
+            for (auto & item : it.GetShipment()) {
+                if (gd.Get_UUID() == item.Get_Good().Get_UUID() && item.Get_Price() < cheap_price) {
+                    cheap_price = item.Get_Price();
+                    cheap_shop = it;
+                }
+            }
+        }
+        std::cout << cheap_shop.GetName() << ", Price:" << cheap_price;
+    }
 
+    void what_is_enough_for(Shop &shop, int &money) {
+        std::vector<std::pair<Good, int>> goods;
+        for (auto & it : shop.GetShipment()) {
+            if (it.Get_Price() <= money) {
+                goods.emplace_back(it.Get_Good(), money / it.Get_Price());
+            }
+        }
+        if (goods.empty()) {
+            std::cout << "You're nish'enka";
+        }
+        else {
+            for(auto & it : goods) {
+                std::cout << it.first.Get_Name() << " - " << it.second << '\n';
+            }
+        }
+    }
+
+    void buy_a_party(Shop &shop, std::list<Good> &parties, int amount) {
+        double full_price = 0;
+        for (auto & it : shop.GetShipment()) {
+            for (auto & item : parties) {
+                if (it.Get_Good().Get_UUID() == item.Get_UUID() && it.Get_Amount() >= amount) {
+                    full_price += it.Get_Price() * amount;
+                }
+            }
+        }
+        if (full_price == 0) {
+            std::cout << "There's not enough good in the shop";
+        }
+        else {
+            std::cout << "Total price is " << full_price;
+        }
+    }
+
+    static void buy_the_cheapest_party(std::list<Shop> &shops, std::list<Shipment> &parties) {
+        Shop cheap_shop = Shop();
+        double cheap_price = std::numeric_limits<double>::max();
+        double full_price = 0;
+        for (auto & it : shops) {
+            for (auto & item : it.GetShipment()) {
+                for (auto & good : parties) {
+                    if (good.Get_Good().Get_UUID() == item.Get_Good().Get_UUID() && item.Get_Price() < cheap_price && item.Get_Amount() >= good.Get_Amount()) {
+                        full_price += item.Get_Price() * good.Get_Amount();
+                        cheap_shop = it;
+                    }
+                }
+            }
+        }
+        std::cout << cheap_shop.GetName() << ", Price:" << full_price;
+     }
 
 };
 

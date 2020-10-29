@@ -1,5 +1,7 @@
 #pragma once
 
+#include <utility>
+
 #include "Good.h"
 
 class Shipment {
@@ -8,7 +10,7 @@ private:
     double price_;
     int amount_ = 0;
 public:
-    Shipment(Good good, double price, int amount) : good_(good), price_(price), amount_(amount) {}
+    Shipment(Good good, double price, int amount) : good_(std::move(good)), price_(price), amount_(amount) {}
 
     Good Get_Good() const {
         return good_;

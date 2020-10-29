@@ -19,12 +19,24 @@ list
 -
 fstream
 -
+limits
+-
+cstddef
+-
+utility
+-
+vector
+-
 
 C:/Users/AStr/Documents/GitHub/oop/oop2/Shipment.h
+utility
+-
 Good.h
 C:/Users/AStr/Documents/GitHub/oop/oop2/Good.h
 
 C:/Users/AStr/Documents/GitHub/oop/oop2/Shop.h
+utility
+-
 Shipment.h
 C:/Users/AStr/Documents/GitHub/oop/oop2/Shipment.h
 

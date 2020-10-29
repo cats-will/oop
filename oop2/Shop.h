@@ -1,5 +1,7 @@
 #pragma  once
 
+#include <utility>
+
 #include "Shipment.h"
 
 class Shop {
@@ -10,7 +12,7 @@ private:
 public:
     Shop() = default;
 
-    Shop(int id, std::string shop_name, std::list<Shipment> item) : id_(id), shop_name_(shop_name), item_(item) {}
+    Shop(int id, std::string shop_name, std::list<Shipment> item) : id_(id), shop_name_(std::move(shop_name)), item_(std::move(item)) {}
 
     friend std::ostream& operator<<(std::ostream& out, Shop &shop) {
         out << "Shop's name:" << shop.shop_name_ << ", ID:" << shop.id_ << '\n';
@@ -42,52 +44,17 @@ public:
         }
     }
 
-    void find_the_cheapest(std::list<Shop> &shops, int UUID) {
-
-        for(auto & it : shops) {
-            for(auto & it2 : it.item_) {
-                if(it2.Get_Good().Get_UUID() == UUID) {
-                    if()
-                }
-            }
-        }
+    std::list<Shipment> GetShipment() {
+       return item_;
     }
+
+    std::string GetName() {
+        return shop_name_;
+    }
+
 
 };
 
-/*
-    Shop(std::map <std::string, Good> &shop_) {
-        for (auto it = shop_.begin(); it != shop_.end(); ++it) {
-            shop.emplace(it->first, it->second);
-        }
-    }
 
-    void add_to_shop(const Good &gd) {
-        for(auto &it : shop) {
-            if(it.second.UUID_ == gd.UUID_) {
-                it.second.amount_ += gd.amount_;
-            }
-            else {
-                shop.insert(std::pair<std::string, Good>(it.first, gd));
-            }
-        }
-    }
-
-    f
-        for (auto it = shop1.shop.begin(); it != shop1.shop.end(); ++it) {
-            out << it->first << ", " << it->second << '\n';
-        }
-        return out;
-    }
-
-
-    friend std::ostream &operator<<(std::ostream &out, Shop &shop1) {
-        out << shop1.shop_name << ' ';
-        for (int i = 0; i < shop1.item.size(); ++i) {
-            out << shop1.item[i] << ',';
-        }
-    }
-
-*/
 
 
