@@ -1,6 +1,8 @@
-#include <iostream>
+#include "Facade.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+
+   Facade a;
+   a.CreateRace();
+
 }

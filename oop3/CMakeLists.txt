@@ -3,4 +3,4 @@ project(oop3)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(oop3 main.cpp Action.h Ground_Charaster.h Air_Characters.h)
+add_executable(oop3 main.cpp Ground_Charaster.h Air_Characters.h Vehicle.h Facade.h TypeVehicle.h Race.h Exception.h)
