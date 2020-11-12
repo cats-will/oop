@@ -23,10 +23,4 @@ public:
         }
         std::cout << "Winner is: " << winner.front().first->GetName() << ", time:" << winner.front().second << '\n';
     }
-
-
-    std::list<Vehicle *> GetMixedRace() const
-    {
-        return mixed_race;
-    }
 };

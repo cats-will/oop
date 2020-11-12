@@ -9,8 +9,6 @@ class GroundRace : public Race {
 public:
     explicit GroundRace(std::list<GroundVehicle *> ground_race) : ground_race(ground_race) {}
 
-
-
     void HowWin(int S) override {
         double min_time = std::numeric_limits<double>::max();
         std::list<std::pair<GroundVehicle*, double>> winner;
@@ -24,10 +22,5 @@ public:
             }
         }
         std::cout << "Winner is: " << winner.front().first->GetName() << ", time:" << winner.front().second << '\n';
-    }
-
-    std::list<GroundVehicle *> GetGroundRace() const
-    {
-        return ground_race;
     }
 };

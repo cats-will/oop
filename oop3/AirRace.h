@@ -22,9 +22,4 @@ public:
         }
         std::cout << "Winner is: " << winner.front().first->GetName() << ", time:" << winner.front().second << '\n';
     }
-
-    std::list<AirVehicle *> GetAirRace() const
-    {
-        return air_race;
-    }
 };
