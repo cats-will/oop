@@ -4,6 +4,7 @@
 
 
 class FlyingCarpet : public AirVehicle {
+    std::string name = "FlyingCarpet";
     int Speed = 10;
 public:
     FlyingCarpet() = default;
@@ -23,19 +24,29 @@ public:
         }
         return 0;
     }
+
+    std::string GetName() const override {
+        return name;
+    }
 };
 
 
 class Stypa : public AirVehicle {
+    std::string name = "Stypa";
     int Speed = 8;
 public:
     double Time(int S) override {
         return (S * 0.06) / Speed;
     }
+
+    std::string GetName() const override {
+        return name;
+    }
 };
 
 
 class Broom : public AirVehicle {
+    std::string name = "Broom";
     int Speed = 20;
 public:
     Broom() = default;
@@ -61,4 +72,7 @@ public:
         return time;
     }
 
+    std::string GetName() const override {
+        return name;
+    }
 };

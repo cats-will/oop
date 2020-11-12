@@ -4,6 +4,7 @@
 
 
 class BactrianCamel : public GroundVehicle {
+    std::string name = "Bactrian Camel";
     int Speed = 10;
     int RestInterval = 30;
     double RestDuration = 5;
@@ -31,10 +32,15 @@ public:
         }
         return time;
     }
+
+    std::string GetName() const override {
+        return name;
+    }
 };
 
 
 class SpeedCamel : public GroundVehicle {
+    std::string name = "Speed Camel";
     int Speed = 40;
     int RestInterval = 10;
     double RestDuration = 5;
@@ -65,10 +71,15 @@ public:
         }
         return time;
     }
+
+    std::string GetName() const override {
+        return name;
+    }
 };
 
 
 class Centaur : public GroundVehicle  {
+    std::string name = "Centaur";
     int Speed = 15;
     int RestInterval = 8;
     double RestDuration = 2;
@@ -91,10 +102,15 @@ public:
         }
         return time;
     }
+
+    std::string GetName() const override {
+        return name;
+    }
 };
 
 
 class RoverBoots : public GroundVehicle {
+    std::string name = "RoverBoots";
     int Speed = 6;
     int RestInterval = 60;
     double RestDuration = 10;
@@ -121,6 +137,10 @@ public:
             }
         }
         return time;
+    }
+
+    std::string GetName() const override {
+        return name;
     }
 };
 
