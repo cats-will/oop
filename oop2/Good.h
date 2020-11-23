@@ -8,17 +8,20 @@
 #include <cstddef>
 #include <utility>
 #include <vector>
+#include <boost/uuid/uuid.hpp>
+#include <boost/uuid/uuid_generators.hpp>
+#include <boost/uuid/uuid_io.hpp>
 
 class Good {
 private:
-    int UUID_;
+    boost::uuids::uuid UUID_;
     std::string name_;
 public:
-    Good() = default;
+//    Good() = default;
 
-    Good(int UUID, std::string name) : UUID_(UUID), name_(std::move(name)) {}
+    Good(std::string name) : UUID_(boost::uuids::random_generator()()), name_(std::move(name)) {}
 
-    int Get_UUID() const {
+    boost::uuids::uuid Get_UUID() const {
         return UUID_;
     }
 

@@ -1,7 +1,5 @@
 #pragma  once
 
-#include <utility>
-
 #include "Shipment.h"
 
 class Shop {
@@ -25,7 +23,7 @@ public:
         return  out;
     }
 
-    void change_price(Shop &shop, int id, double price) {
+    void change_price(Shop &shop, boost::uuids::uuid id, double price) {
         for(auto & it : shop.item_) {
             if(it.Get_Good().Get_UUID() == id) {
                 it.Set_Price(price);

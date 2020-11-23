@@ -1,7 +1,5 @@
 #pragma once
 
-#include <utility>
-
 #include "Good.h"
 
 class Shipment {
@@ -18,6 +16,10 @@ public:
 
     double Get_Price() const {
         return price_;
+    }
+
+    void ChangeAmount(int n) {
+        amount_ -= n;
     }
 
     int& Get_Amount() {
