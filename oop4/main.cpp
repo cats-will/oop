@@ -4,9 +4,9 @@
 
 int main( ) {
 
-    const std::string a = "C:\\";
-    Storage storage = {"C:\\Users\\AStr\\.CLion2019.3\\config\\clion.key"};
 
+    Storage storage = {"/home/catswill/lab2/v.sh"};
+    std::cout << storage.GetSize();
 
 
 }
