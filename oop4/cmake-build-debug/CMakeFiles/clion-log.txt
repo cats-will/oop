@@ -1,0 +1,27 @@
+/home/catswill/clion-2020.2.5/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/cc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" /home/catswill/oop/oop4
+CMake Error at /home/catswill/clion-2020.2.5/bin/cmake/linux/share/cmake-3.17/Modules/FindBoost.cmake:1623 (file):
+  file STRINGS file
+  "/home/catswill/oop/oop4/C:\Users\AStr\boost_1_74_0/boost/version.hpp"
+  cannot be read.
+Call Stack (most recent call first):
+  CMakeLists.txt:11 (find_package)
+
+
+CMake Error at /home/catswill/clion-2020.2.5/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:159 (set):
+  Syntax error in cmake code at
+
+    /home/catswill/clion-2020.2.5/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:159
+
+  when parsing string
+
+    Could NOT find Boost: Found unsuitable version "0.0.0", but required is at least "1.74.0" (found C:\Users\AStr\boost_1_74_0)
+
+  Invalid character escape '\U'.
+Call Stack (most recent call first):
+  /home/catswill/clion-2020.2.5/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:443 (_FPHSA_FAILURE_MESSAGE)
+  /home/catswill/clion-2020.2.5/bin/cmake/linux/share/cmake-3.17/Modules/FindBoost.cmake:2166 (find_package_handle_standard_args)
+  CMakeLists.txt:11 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/catswill/oop/oop4/cmake-build-debug/CMakeFiles/CMakeOutput.log".

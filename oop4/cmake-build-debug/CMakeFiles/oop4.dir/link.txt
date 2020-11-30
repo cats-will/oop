@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/oop4.dir/main.cpp.o CMakeFiles/oop4.dir/Backup.cpp.o CMakeFiles/oop4.dir/RestorePoint.cpp.o CMakeFiles/oop4.dir/StorageAlgorithm.cpp.o  -o oop4  -Wl,-rpath,/usr/local/lib /usr/local/lib/libboost_filesystem.so /usr/local/lib/libboost_system.so 
