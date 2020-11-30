@@ -3,8 +3,15 @@ project(oop4)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(oop4 main.cpp Backup.cpp Backup.h RestorePoint.cpp RestorePoint.h StorageAlgorithm.cpp StorageAlgorithm.h )
+add_executable(oop4 main.cpp Backup.cpp Backup.h RestorePoint.cpp RestorePoint.h StorageAlgorithm.cpp StorageAlgorithm.h CleanupAlgorithm.cpp CleanupAlgorithm.h)
 
-find_package(Boost REQUIRED filesystem)
+set(Boost_INCLUDE_DIR C:\\Users\\AStr\\boost_1_74_0)
+set(Boost_LIBRARY_DIR C:\\Users\\AStr\\boost_1_74_0\\stage\\lib)
 
-target_link_libraries(oop4 ${Boost_LIBRARIES})
+find_package(Boost 1.74.0)
+
+if(NOT Boost_FOUND)
+    message(FATAL_ERROR "Could not find Boost!")
+endif()
+include_directories(${Boost_INCLUDE_DIR})
+LINK_DIRECTORIES(${Boost_LIBRARY_DIR})
