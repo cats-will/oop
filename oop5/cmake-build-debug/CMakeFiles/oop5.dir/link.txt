@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/oop5.dir/main.cpp.o  -o oop5 
