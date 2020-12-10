@@ -9,6 +9,10 @@ class RP_Builder {
 public:
     virtual void CreateRestorePoint() = 0;
 
+    virtual void SharedStorageAlgorithm() = 0;
+
+    virtual void FullStorageAlgorithm() = 0;
+
     void AddFile(std::list<Storage> restore_points, const Storage& file) {
         restore_points.push_back(file);
     }
@@ -16,9 +20,6 @@ public:
     void RemoveFile(std::list<Storage> restore_points, const Storage& file) {
         restore_points.remove(file);
     }
-
-    virtual void SharedStorageAlgorithm() = 0;
-
-    virtual void FullStorageAlgorithm() = 0;
-
 };
+
+class
