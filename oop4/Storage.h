@@ -1,5 +1,8 @@
 #pragma once
 
+#include "FullRestorePoint.h"
+#include "DeltaRestorePoint.h"
+
 #include <string>
 #include <list>
 
@@ -16,16 +19,9 @@ class Storage {
     std::string path;
     int size;
 public:
-    Storage(const std::string& path) : path(path) {
-        const boost::filesystem::path file{path};
-        this->size = boost::filesystem::file_size(file);
-    }
+    Storage(const std::string& path);
 
-    std::string GetPath() const {
-        return path;
-    }
+    std::string GetPath() const;
 
-    int GetSize() const {
-        return size;
-    }
+    int GetSize() const;
 };

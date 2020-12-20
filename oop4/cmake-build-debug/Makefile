@@ -68,24 +68,13 @@ RM = /home/catswill/clion-2020.2.5/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/catswill/oop/oop4
+CMAKE_SOURCE_DIR = /home/catswill/CLionProjects/oop4new
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/catswill/oop/oop4/cmake-build-debug
+CMAKE_BINARY_DIR = /home/catswill/CLionProjects/oop4new/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/catswill/clion-2020.2.5/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -98,11 +87,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/home/catswill/clion-2020.2.5/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/catswill/oop/oop4/cmake-build-debug/CMakeFiles /home/catswill/oop/oop4/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/catswill/CLionProjects/oop4new/cmake-build-debug/CMakeFiles /home/catswill/CLionProjects/oop4new/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/catswill/oop/oop4/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/catswill/CLionProjects/oop4new/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,98 +131,233 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named oop4
+# Target rules for targets named oop4new
 
 # Build rule for target.
-oop4: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 oop4
-.PHONY : oop4
+oop4new: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 oop4new
+.PHONY : oop4new
 
 # fast build rule for target.
-oop4/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4.dir/build.make CMakeFiles/oop4.dir/build
-.PHONY : oop4/fast
+oop4new/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4new.dir/build.make CMakeFiles/oop4new.dir/build
+.PHONY : oop4new/fast
 
-Backup.o: Backup.cpp.o
+BackUp.o: BackUp.cpp.o
 
-.PHONY : Backup.o
-
-# target to build an object file
-Backup.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4.dir/build.make CMakeFiles/oop4.dir/Backup.cpp.o
-.PHONY : Backup.cpp.o
-
-Backup.i: Backup.cpp.i
-
-.PHONY : Backup.i
-
-# target to preprocess a source file
-Backup.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4.dir/build.make CMakeFiles/oop4.dir/Backup.cpp.i
-.PHONY : Backup.cpp.i
-
-Backup.s: Backup.cpp.s
-
-.PHONY : Backup.s
-
-# target to generate assembly for a file
-Backup.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4.dir/build.make CMakeFiles/oop4.dir/Backup.cpp.s
-.PHONY : Backup.cpp.s
-
-RestorePoint.o: RestorePoint.cpp.o
-
-.PHONY : RestorePoint.o
+.PHONY : BackUp.o
 
 # target to build an object file
-RestorePoint.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4.dir/build.make CMakeFiles/oop4.dir/RestorePoint.cpp.o
-.PHONY : RestorePoint.cpp.o
+BackUp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4new.dir/build.make CMakeFiles/oop4new.dir/BackUp.cpp.o
+.PHONY : BackUp.cpp.o
 
-RestorePoint.i: RestorePoint.cpp.i
+BackUp.i: BackUp.cpp.i
 
-.PHONY : RestorePoint.i
+.PHONY : BackUp.i
 
 # target to preprocess a source file
-RestorePoint.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4.dir/build.make CMakeFiles/oop4.dir/RestorePoint.cpp.i
-.PHONY : RestorePoint.cpp.i
+BackUp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4new.dir/build.make CMakeFiles/oop4new.dir/BackUp.cpp.i
+.PHONY : BackUp.cpp.i
 
-RestorePoint.s: RestorePoint.cpp.s
+BackUp.s: BackUp.cpp.s
 
-.PHONY : RestorePoint.s
+.PHONY : BackUp.s
 
 # target to generate assembly for a file
-RestorePoint.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4.dir/build.make CMakeFiles/oop4.dir/RestorePoint.cpp.s
-.PHONY : RestorePoint.cpp.s
+BackUp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4new.dir/build.make CMakeFiles/oop4new.dir/BackUp.cpp.s
+.PHONY : BackUp.cpp.s
 
-StorageAlgorithm.o: StorageAlgorithm.cpp.o
+DeltaRestorePoint.o: DeltaRestorePoint.cpp.o
 
-.PHONY : StorageAlgorithm.o
+.PHONY : DeltaRestorePoint.o
 
 # target to build an object file
-StorageAlgorithm.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4.dir/build.make CMakeFiles/oop4.dir/StorageAlgorithm.cpp.o
-.PHONY : StorageAlgorithm.cpp.o
+DeltaRestorePoint.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4new.dir/build.make CMakeFiles/oop4new.dir/DeltaRestorePoint.cpp.o
+.PHONY : DeltaRestorePoint.cpp.o
 
-StorageAlgorithm.i: StorageAlgorithm.cpp.i
+DeltaRestorePoint.i: DeltaRestorePoint.cpp.i
 
-.PHONY : StorageAlgorithm.i
+.PHONY : DeltaRestorePoint.i
 
 # target to preprocess a source file
-StorageAlgorithm.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4.dir/build.make CMakeFiles/oop4.dir/StorageAlgorithm.cpp.i
-.PHONY : StorageAlgorithm.cpp.i
+DeltaRestorePoint.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4new.dir/build.make CMakeFiles/oop4new.dir/DeltaRestorePoint.cpp.i
+.PHONY : DeltaRestorePoint.cpp.i
 
-StorageAlgorithm.s: StorageAlgorithm.cpp.s
+DeltaRestorePoint.s: DeltaRestorePoint.cpp.s
 
-.PHONY : StorageAlgorithm.s
+.PHONY : DeltaRestorePoint.s
 
 # target to generate assembly for a file
-StorageAlgorithm.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4.dir/build.make CMakeFiles/oop4.dir/StorageAlgorithm.cpp.s
-.PHONY : StorageAlgorithm.cpp.s
+DeltaRestorePoint.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4new.dir/build.make CMakeFiles/oop4new.dir/DeltaRestorePoint.cpp.s
+.PHONY : DeltaRestorePoint.cpp.s
+
+Delta_RP_Creator.o: Delta_RP_Creator.cpp.o
+
+.PHONY : Delta_RP_Creator.o
+
+# target to build an object file
+Delta_RP_Creator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4new.dir/build.make CMakeFiles/oop4new.dir/Delta_RP_Creator.cpp.o
+.PHONY : Delta_RP_Creator.cpp.o
+
+Delta_RP_Creator.i: Delta_RP_Creator.cpp.i
+
+.PHONY : Delta_RP_Creator.i
+
+# target to preprocess a source file
+Delta_RP_Creator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4new.dir/build.make CMakeFiles/oop4new.dir/Delta_RP_Creator.cpp.i
+.PHONY : Delta_RP_Creator.cpp.i
+
+Delta_RP_Creator.s: Delta_RP_Creator.cpp.s
+
+.PHONY : Delta_RP_Creator.s
+
+# target to generate assembly for a file
+Delta_RP_Creator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4new.dir/build.make CMakeFiles/oop4new.dir/Delta_RP_Creator.cpp.s
+.PHONY : Delta_RP_Creator.cpp.s
+
+FullRestorePoint.o: FullRestorePoint.cpp.o
+
+.PHONY : FullRestorePoint.o
+
+# target to build an object file
+FullRestorePoint.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4new.dir/build.make CMakeFiles/oop4new.dir/FullRestorePoint.cpp.o
+.PHONY : FullRestorePoint.cpp.o
+
+FullRestorePoint.i: FullRestorePoint.cpp.i
+
+.PHONY : FullRestorePoint.i
+
+# target to preprocess a source file
+FullRestorePoint.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4new.dir/build.make CMakeFiles/oop4new.dir/FullRestorePoint.cpp.i
+.PHONY : FullRestorePoint.cpp.i
+
+FullRestorePoint.s: FullRestorePoint.cpp.s
+
+.PHONY : FullRestorePoint.s
+
+# target to generate assembly for a file
+FullRestorePoint.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4new.dir/build.make CMakeFiles/oop4new.dir/FullRestorePoint.cpp.s
+.PHONY : FullRestorePoint.cpp.s
+
+Full_RP_Creator.o: Full_RP_Creator.cpp.o
+
+.PHONY : Full_RP_Creator.o
+
+# target to build an object file
+Full_RP_Creator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4new.dir/build.make CMakeFiles/oop4new.dir/Full_RP_Creator.cpp.o
+.PHONY : Full_RP_Creator.cpp.o
+
+Full_RP_Creator.i: Full_RP_Creator.cpp.i
+
+.PHONY : Full_RP_Creator.i
+
+# target to preprocess a source file
+Full_RP_Creator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4new.dir/build.make CMakeFiles/oop4new.dir/Full_RP_Creator.cpp.i
+.PHONY : Full_RP_Creator.cpp.i
+
+Full_RP_Creator.s: Full_RP_Creator.cpp.s
+
+.PHONY : Full_RP_Creator.s
+
+# target to generate assembly for a file
+Full_RP_Creator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4new.dir/build.make CMakeFiles/oop4new.dir/Full_RP_Creator.cpp.s
+.PHONY : Full_RP_Creator.cpp.s
+
+IRestorePoint.o: IRestorePoint.cpp.o
+
+.PHONY : IRestorePoint.o
+
+# target to build an object file
+IRestorePoint.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4new.dir/build.make CMakeFiles/oop4new.dir/IRestorePoint.cpp.o
+.PHONY : IRestorePoint.cpp.o
+
+IRestorePoint.i: IRestorePoint.cpp.i
+
+.PHONY : IRestorePoint.i
+
+# target to preprocess a source file
+IRestorePoint.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4new.dir/build.make CMakeFiles/oop4new.dir/IRestorePoint.cpp.i
+.PHONY : IRestorePoint.cpp.i
+
+IRestorePoint.s: IRestorePoint.cpp.s
+
+.PHONY : IRestorePoint.s
+
+# target to generate assembly for a file
+IRestorePoint.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4new.dir/build.make CMakeFiles/oop4new.dir/IRestorePoint.cpp.s
+.PHONY : IRestorePoint.cpp.s
+
+RP_Creator.o: RP_Creator.cpp.o
+
+.PHONY : RP_Creator.o
+
+# target to build an object file
+RP_Creator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4new.dir/build.make CMakeFiles/oop4new.dir/RP_Creator.cpp.o
+.PHONY : RP_Creator.cpp.o
+
+RP_Creator.i: RP_Creator.cpp.i
+
+.PHONY : RP_Creator.i
+
+# target to preprocess a source file
+RP_Creator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4new.dir/build.make CMakeFiles/oop4new.dir/RP_Creator.cpp.i
+.PHONY : RP_Creator.cpp.i
+
+RP_Creator.s: RP_Creator.cpp.s
+
+.PHONY : RP_Creator.s
+
+# target to generate assembly for a file
+RP_Creator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4new.dir/build.make CMakeFiles/oop4new.dir/RP_Creator.cpp.s
+.PHONY : RP_Creator.cpp.s
+
+Storage.o: Storage.cpp.o
+
+.PHONY : Storage.o
+
+# target to build an object file
+Storage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4new.dir/build.make CMakeFiles/oop4new.dir/Storage.cpp.o
+.PHONY : Storage.cpp.o
+
+Storage.i: Storage.cpp.i
+
+.PHONY : Storage.i
+
+# target to preprocess a source file
+Storage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4new.dir/build.make CMakeFiles/oop4new.dir/Storage.cpp.i
+.PHONY : Storage.cpp.i
+
+Storage.s: Storage.cpp.s
+
+.PHONY : Storage.s
+
+# target to generate assembly for a file
+Storage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4new.dir/build.make CMakeFiles/oop4new.dir/Storage.cpp.s
+.PHONY : Storage.cpp.s
 
 main.o: main.cpp.o
 
@@ -230,7 +365,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4.dir/build.make CMakeFiles/oop4.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4new.dir/build.make CMakeFiles/oop4new.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -239,7 +374,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4.dir/build.make CMakeFiles/oop4.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4new.dir/build.make CMakeFiles/oop4new.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -248,7 +383,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4.dir/build.make CMakeFiles/oop4.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop4new.dir/build.make CMakeFiles/oop4new.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -259,16 +394,31 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... oop4"
-	@echo "... Backup.o"
-	@echo "... Backup.i"
-	@echo "... Backup.s"
-	@echo "... RestorePoint.o"
-	@echo "... RestorePoint.i"
-	@echo "... RestorePoint.s"
-	@echo "... StorageAlgorithm.o"
-	@echo "... StorageAlgorithm.i"
-	@echo "... StorageAlgorithm.s"
+	@echo "... oop4new"
+	@echo "... BackUp.o"
+	@echo "... BackUp.i"
+	@echo "... BackUp.s"
+	@echo "... DeltaRestorePoint.o"
+	@echo "... DeltaRestorePoint.i"
+	@echo "... DeltaRestorePoint.s"
+	@echo "... Delta_RP_Creator.o"
+	@echo "... Delta_RP_Creator.i"
+	@echo "... Delta_RP_Creator.s"
+	@echo "... FullRestorePoint.o"
+	@echo "... FullRestorePoint.i"
+	@echo "... FullRestorePoint.s"
+	@echo "... Full_RP_Creator.o"
+	@echo "... Full_RP_Creator.i"
+	@echo "... Full_RP_Creator.s"
+	@echo "... IRestorePoint.o"
+	@echo "... IRestorePoint.i"
+	@echo "... IRestorePoint.s"
+	@echo "... RP_Creator.o"
+	@echo "... RP_Creator.i"
+	@echo "... RP_Creator.s"
+	@echo "... Storage.o"
+	@echo "... Storage.i"
+	@echo "... Storage.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

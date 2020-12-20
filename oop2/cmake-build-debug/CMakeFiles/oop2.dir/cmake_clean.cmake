@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/oop2.dir/main.cpp.obj"
-  "liboop2.dll.a"
-  "oop2.exe"
-  "oop2.exe.manifest"
+  "CMakeFiles/oop2.dir/main.cpp.o"
+  "oop2"
   "oop2.pdb"
 )
 

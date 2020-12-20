@@ -1,3 +1,3 @@
-/home/catswill/oop/oop4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/catswill/oop/oop4/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/catswill/oop/oop4/cmake-build-debug/CMakeFiles/oop4.dir
+/home/catswill/CLionProjects/oop4new/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/catswill/CLionProjects/oop4new/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/catswill/CLionProjects/oop4new/cmake-build-debug/CMakeFiles/oop4new.dir

@@ -7,6 +7,10 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "../CMakeLists.txt"
+  "CMakeFiles/3.17.3/CMakeCCompiler.cmake"
+  "CMakeFiles/3.17.3/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.17.3/CMakeSystem.cmake"
   "/home/catswill/clion-2020.2.5/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCInformation.cmake"
   "/home/catswill/clion-2020.2.5/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCXXInformation.cmake"
   "/home/catswill/clion-2020.2.5/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -32,10 +36,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/catswill/clion-2020.2.5/bin/cmake/linux/share/cmake-3.17/Modules/Platform/Linux.cmake"
   "/home/catswill/clion-2020.2.5/bin/cmake/linux/share/cmake-3.17/Modules/Platform/UnixPaths.cmake"
   "/home/catswill/clion-2020.2.5/bin/cmake/linux/share/cmake-3.17/Modules/ProcessorCount.cmake"
-  "../CMakeLists.txt"
-  "CMakeFiles/3.17.3/CMakeCCompiler.cmake"
-  "CMakeFiles/3.17.3/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.17.3/CMakeSystem.cmake"
   )
 
 # The corresponding makefile is:
@@ -51,5 +51,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/oop4.dir/DependInfo.cmake"
+  "CMakeFiles/oop4new.dir/DependInfo.cmake"
   )

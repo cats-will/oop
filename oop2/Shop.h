@@ -42,6 +42,8 @@ public:
         }
     }
 
+
+
     std::list<Shipment> GetShipment() {
        return item_;
     }

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="oop4new"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/catswill/CLionProjects/oop4new/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/catswill/CLionProjects/oop4new/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/catswill/CLionProjects/oop4new/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/catswill/CLionProjects/oop4new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/catswill/CLionProjects/oop4new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/catswill/CLionProjects/oop4new/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/catswill/CLionProjects/oop4new/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/catswill/CLionProjects/oop4new/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/catswill/CLionProjects/oop4new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/catswill/CLionProjects/oop4new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/catswill/CLionProjects/oop4new/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/catswill/CLionProjects/oop4new/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/catswill/CLionProjects/oop4new/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/catswill/CLionProjects/oop4new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/catswill/CLionProjects/oop4new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oop4new">
+				<Option output="/home/catswill/CLionProjects/oop4new/cmake-build-debug/oop4new" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/catswill/CLionProjects/oop4new/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/catswill/CLionProjects/oop4new/cmake-build-debug/Makefile&quot;  VERBOSE=1 oop4new"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/catswill/CLionProjects/oop4new/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/catswill/CLionProjects/oop4new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/catswill/CLionProjects/oop4new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oop4new/fast">
+				<Option output="/home/catswill/CLionProjects/oop4new/cmake-build-debug/oop4new" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/catswill/CLionProjects/oop4new/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/catswill/CLionProjects/oop4new/cmake-build-debug/Makefile&quot;  VERBOSE=1 oop4new/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/catswill/CLionProjects/oop4new/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/catswill/CLionProjects/oop4new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/catswill/CLionProjects/oop4new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/catswill/CLionProjects/oop4new/BackUp.cpp">
+			<Option target="oop4new"/>
+		</Unit>
+		<Unit filename="/home/catswill/CLionProjects/oop4new/BackUp.h">
+			<Option target="oop4new"/>
+		</Unit>
+		<Unit filename="/home/catswill/CLionProjects/oop4new/DeltaRestorePoint.cpp">
+			<Option target="oop4new"/>
+		</Unit>
+		<Unit filename="/home/catswill/CLionProjects/oop4new/DeltaRestorePoint.h">
+			<Option target="oop4new"/>
+		</Unit>
+		<Unit filename="/home/catswill/CLionProjects/oop4new/Delta_RP_Creator.cpp">
+			<Option target="oop4new"/>
+		</Unit>
+		<Unit filename="/home/catswill/CLionProjects/oop4new/Delta_RP_Creator.h">
+			<Option target="oop4new"/>
+		</Unit>
+		<Unit filename="/home/catswill/CLionProjects/oop4new/FullRestorePoint.cpp">
+			<Option target="oop4new"/>
+		</Unit>
+		<Unit filename="/home/catswill/CLionProjects/oop4new/FullRestorePoint.h">
+			<Option target="oop4new"/>
+		</Unit>
+		<Unit filename="/home/catswill/CLionProjects/oop4new/Full_RP_Creator.cpp">
+			<Option target="oop4new"/>
+		</Unit>
+		<Unit filename="/home/catswill/CLionProjects/oop4new/Full_RP_Creator.h">
+			<Option target="oop4new"/>
+		</Unit>
+		<Unit filename="/home/catswill/CLionProjects/oop4new/IRestorePoint.cpp">
+			<Option target="oop4new"/>
+		</Unit>
+		<Unit filename="/home/catswill/CLionProjects/oop4new/IRestorePoint.h">
+			<Option target="oop4new"/>
+		</Unit>
+		<Unit filename="/home/catswill/CLionProjects/oop4new/RP_Creator.cpp">
+			<Option target="oop4new"/>
+		</Unit>
+		<Unit filename="/home/catswill/CLionProjects/oop4new/RP_Creator.h">
+			<Option target="oop4new"/>
+		</Unit>
+		<Unit filename="/home/catswill/CLionProjects/oop4new/Storage.cpp">
+			<Option target="oop4new"/>
+		</Unit>
+		<Unit filename="/home/catswill/CLionProjects/oop4new/Storage.h">
+			<Option target="oop4new"/>
+		</Unit>
+		<Unit filename="/home/catswill/CLionProjects/oop4new/main.cpp">
+			<Option target="oop4new"/>
+		</Unit>
+		<Unit filename="/home/catswill/CLionProjects/oop4new/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

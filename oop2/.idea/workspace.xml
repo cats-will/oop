@@ -5,13 +5,82 @@
       <config projectName="oop2" targetName="oop2" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="653a078b-168e-4cc1-8b03-7a38e0d264fa" name="Default Changelist" comment="" />
+    <list default="true" id="653a078b-168e-4cc1-8b03-7a38e0d264fa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop.h" beforeDir="false" afterPath="$PROJECT_DIR$/Shop.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop2.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop2.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop2.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop2.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop2.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop2.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop2.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop2.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop2.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop2.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop2.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop2.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop2.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop2.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop2.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop2.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oop2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/oop2.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/Backup.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/Backup.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../oop4/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/RP_Builder.h" beforeDir="false" afterPath="$PROJECT_DIR$/../oop4/IRestorePoint.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/RestorePoint.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/RestorePoint.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/StorageAlgorithm.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/StorageAlgorithm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../oop4/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../oop4/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../oop4/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../oop4/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../oop4/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../oop4/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../oop4/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/cmake-build-debug/CMakeFiles/oop4.dir/Backup.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/cmake-build-debug/CMakeFiles/oop4.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/cmake-build-debug/CMakeFiles/oop4.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/cmake-build-debug/CMakeFiles/oop4.dir/RestorePoint.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/cmake-build-debug/CMakeFiles/oop4.dir/StorageAlgorithm.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/cmake-build-debug/CMakeFiles/oop4.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/cmake-build-debug/CMakeFiles/oop4.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/cmake-build-debug/CMakeFiles/oop4.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/cmake-build-debug/CMakeFiles/oop4.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/cmake-build-debug/CMakeFiles/oop4.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/cmake-build-debug/CMakeFiles/oop4.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/cmake-build-debug/CMakeFiles/oop4.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/cmake-build-debug/CMakeFiles/oop4.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../oop4/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../oop4/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../oop4/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/cmake-build-debug/oop4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/cmake-build-debug/oop4.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop4/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../oop4/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,10 +99,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/CLionProjects/lox" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -45,9 +115,9 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
     <configuration name="oop2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="oop2" TARGET_NAME="oop2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="oop2" RUN_TARGET_NAME="oop2">
@@ -77,6 +147,7 @@
       <workItem from="1603540344668" duration="1419000" />
       <workItem from="1603632350746" duration="41863000" />
       <workItem from="1603907989974" duration="22549000" />
+      <workItem from="1607313077828" duration="161000" />
     </task>
     <servers />
   </component>
@@ -92,22 +163,30 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="407" y="292" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.984@0.0.1280.984" timestamp="1603660370099" />
-    <state width="1236" height="2" key="GridCell.Tab.0.bottom" timestamp="1603944055878">
-      <screen x="0" y="0" width="1280" height="984" />
+    <state x="456" y="282" width="424" height="484" key="FileChooserDialogImpl" timestamp="1607313231838">
+      <screen x="67" y="27" width="1213" height="997" />
+    </state>
+    <state x="456" y="282" width="424" height="484" key="FileChooserDialogImpl/67.27.1213.997@67.27.1213.997" timestamp="1607313231838" />
+    <state width="1167" height="260" key="GridCell.Tab.0.bottom" timestamp="1607313237934">
+      <screen x="67" y="27" width="1213" height="997" />
     </state>
     <state width="1236" height="2" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1603944055878" />
-    <state width="1236" height="2" key="GridCell.Tab.0.center" timestamp="1603944055878">
-      <screen x="0" y="0" width="1280" height="984" />
+    <state width="1167" height="260" key="GridCell.Tab.0.bottom/67.27.1213.997@67.27.1213.997" timestamp="1607313237934" />
+    <state width="1167" height="260" key="GridCell.Tab.0.center" timestamp="1607313237933">
+      <screen x="67" y="27" width="1213" height="997" />
     </state>
     <state width="1236" height="2" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1603944055878" />
-    <state width="1236" height="2" key="GridCell.Tab.0.left" timestamp="1603944055878">
-      <screen x="0" y="0" width="1280" height="984" />
+    <state width="1167" height="260" key="GridCell.Tab.0.center/67.27.1213.997@67.27.1213.997" timestamp="1607313237933" />
+    <state width="1167" height="260" key="GridCell.Tab.0.left" timestamp="1607313237932">
+      <screen x="67" y="27" width="1213" height="997" />
     </state>
     <state width="1236" height="2" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1603944055878" />
-    <state width="1236" height="2" key="GridCell.Tab.0.right" timestamp="1603944055878">
-      <screen x="0" y="0" width="1280" height="984" />
+    <state width="1167" height="260" key="GridCell.Tab.0.left/67.27.1213.997@67.27.1213.997" timestamp="1607313237932" />
+    <state width="1167" height="260" key="GridCell.Tab.0.right" timestamp="1607313237933">
+      <screen x="67" y="27" width="1213" height="997" />
     </state>
     <state width="1236" height="2" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1603944055878" />
+    <state width="1167" height="260" key="GridCell.Tab.0.right/67.27.1213.997@67.27.1213.997" timestamp="1607313237933" />
     <state width="1236" height="2" key="GridCell.Tab.1.bottom" timestamp="1603944055879">
       <screen x="0" y="0" width="1280" height="984" />
     </state>

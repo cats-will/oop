@@ -1,22 +1,66 @@
 #include <iostream>
-#include "Backup.h"
 
+#include "BackUp.h"
 
-int main( ) {
+int main() {
+/*
+    RP_Creator* creator = new Full_RP_Creator();
 
+    RP_Creator* creator2 = new Delta_RP_Creator();
+
+    std::list<IRestorePoint*> rp;
+    rp.push_back(reinterpret_cast<IRestorePoint *const>(creator2));
+    rp.push_back(reinterpret_cast<IRestorePoint *const>(creator));
+
+    BackUp backUp = {rp};
+    std::cout << backUp.GetCreationTime();
+*/
     Storage storage = {"/home/catswill/lab2/v.sh"};
-    std::cout << storage.GetSize() << '\n';
-    std::cout << storage.GetPath();
-
-    std::list<Storage> rp1;
-    rp1.push_back(storage);
-
-    RestorePoint restorePoint = {rp1};
-    std::cout << restorePoint << '\n';
-
-    Backup backup = {restorePoint};
-
-    std::cout << backup.GetUUID() << ' ' << backup.GetCreationTime() << '\n';
-
+    FullRestorePoint fullRestorePoint = {storage};
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

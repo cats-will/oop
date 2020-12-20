@@ -1,4 +1,4 @@
-"C:\Users\AStr\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\AStr\Documents\GitHub\oop\oop2
+/home/catswill/clion-2020.2.5/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/cc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" /home/catswill/oop/oop2
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/AStr/Documents/GitHub/oop/oop2/cmake-build-debug
+-- Build files have been written to: /home/catswill/oop/oop2/cmake-build-debug

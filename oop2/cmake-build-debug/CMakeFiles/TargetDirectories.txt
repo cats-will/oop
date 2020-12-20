@@ -1,3 +1,3 @@
-C:/Users/AStr/Documents/GitHub/oop/oop2/cmake-build-debug/CMakeFiles/oop2.dir
-C:/Users/AStr/Documents/GitHub/oop/oop2/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/AStr/Documents/GitHub/oop/oop2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/catswill/oop/oop2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/catswill/oop/oop2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/catswill/oop/oop2/cmake-build-debug/CMakeFiles/oop2.dir

@@ -1,25 +1,41 @@
 #pragma once
 
-#include <list>
+#include "Storage.h"
 
-class RestorePoint;
-class Storage;
 
-class RP_Builder {
+class IRestorePoint {
 public:
-    virtual void CreateRestorePoint() = 0;
-
     virtual void SharedStorageAlgorithm() = 0;
 
     virtual void FullStorageAlgorithm() = 0;
 
-    void AddFile(std::list<Storage> restore_points, const Storage& file) {
-        restore_points.push_back(file);
-    }
+    virtual int GetFullSize() = 0;
 
-    void RemoveFile(std::list<Storage> restore_points, const Storage& file) {
-        restore_points.remove(file);
-    }
+    void AddFile(std::list<Storage> restore_points, const Storage& file);
+
+    void RemoveFile(std::list<Storage> restore_points, const Storage& file);
+
+
 };
 
-class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
