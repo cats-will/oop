@@ -6,67 +6,27 @@ class CreditAccount : public IAccount {
     bu::uuid uuid = bu::random_generator()();
     float money;
     float commission;
+    float percent;
     float limit;
 public:
 
-    CreditAccount(float money, float commission, float limit) : money(money), commission(commission), limit(limit) {}
+    CreditAccount() = default;
 
-    void WithdrawMoney(float want) override {
+    CreditAccount(float money, float percent, float limit);
 
-        PayCommission();
+    void WithdrawMoney(float want) override;
 
-        if (money - want < -limit && money - want > limit) {
-            throw LimitException();
-        }
+    void TopUp(float add) override;
 
-        money -= want;
-    }
+    void TransferMoney(IAccount *account, float _money) override;
 
-    void TopUp(float add) override {
-        if (money + add > limit) {
-            throw LimitException();
-        }
-        money += add;
-    }
+    void GetTransfer(float _money) override;
 
-    void TransferMoney(IAccount *account, float _money) override {
+    void PayCommission();
 
-        PayCommission();
+    bu::uuid GetID() override;
 
-        if (account->GetID() == uuid) {
-            throw SelfTransferException();
-        }
+    float GetBalance() override;
 
-        if (money - _money < -limit && money - _money > limit) {
-            throw LimitException();
-        }
-
-        account->GetTransfer(_money);
-
-        money -= _money;
-    }
-
-    void GetTransfer(float _money) override {
-        money += _money;
-    }
-
-    void PayCommission() {
-        if (money > 0) {
-            return;
-        }
-        else if (money < 0 && money - commission > limit && money - commission < -limit) {
-            money -= money * commission / 100;
-        }
-        else {
-            throw LimitException();
-        }
-    }
-
-    bu::uuid GetID() override {
-        return uuid;
-    }
-
-    float GetBalance() override {
-        return money;
-    }
+    void SetCommission(float commission_) override;
 };
