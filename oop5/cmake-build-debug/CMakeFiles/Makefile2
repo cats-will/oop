@@ -94,12 +94,12 @@ clean: CMakeFiles/oop5.dir/clean
 CMakeFiles/oop5.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop5.dir/build.make CMakeFiles/oop5.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop5.dir/build.make CMakeFiles/oop5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/catswill/CLionProjects/oop5/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target oop5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/catswill/CLionProjects/oop5/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target oop5"
 .PHONY : CMakeFiles/oop5.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/oop5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/catswill/CLionProjects/oop5/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/catswill/CLionProjects/oop5/cmake-build-debug/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/oop5.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/catswill/CLionProjects/oop5/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/oop5.dir/rule

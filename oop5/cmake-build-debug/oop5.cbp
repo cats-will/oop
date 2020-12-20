@@ -84,16 +84,34 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/catswill/CLionProjects/oop5/Bank.cpp">
+			<Option target="oop5"/>
+		</Unit>
 		<Unit filename="/home/catswill/CLionProjects/oop5/Bank.h">
+			<Option target="oop5"/>
+		</Unit>
+		<Unit filename="/home/catswill/CLionProjects/oop5/Chain.h">
+			<Option target="oop5"/>
+		</Unit>
+		<Unit filename="/home/catswill/CLionProjects/oop5/Client.cpp">
 			<Option target="oop5"/>
 		</Unit>
 		<Unit filename="/home/catswill/CLionProjects/oop5/Client.h">
 			<Option target="oop5"/>
 		</Unit>
+		<Unit filename="/home/catswill/CLionProjects/oop5/CreditAccount.cpp">
+			<Option target="oop5"/>
+		</Unit>
 		<Unit filename="/home/catswill/CLionProjects/oop5/CreditAccount.h">
 			<Option target="oop5"/>
 		</Unit>
+		<Unit filename="/home/catswill/CLionProjects/oop5/DebitAccount.cpp">
+			<Option target="oop5"/>
+		</Unit>
 		<Unit filename="/home/catswill/CLionProjects/oop5/DebitAccount.h">
+			<Option target="oop5"/>
+		</Unit>
+		<Unit filename="/home/catswill/CLionProjects/oop5/Deposit.cpp">
 			<Option target="oop5"/>
 		</Unit>
 		<Unit filename="/home/catswill/CLionProjects/oop5/Deposit.h">
@@ -103,6 +121,12 @@
 			<Option target="oop5"/>
 		</Unit>
 		<Unit filename="/home/catswill/CLionProjects/oop5/MyException.h">
+			<Option target="oop5"/>
+		</Unit>
+		<Unit filename="/home/catswill/CLionProjects/oop5/Translations.cpp">
+			<Option target="oop5"/>
+		</Unit>
+		<Unit filename="/home/catswill/CLionProjects/oop5/Translations.h">
 			<Option target="oop5"/>
 		</Unit>
 		<Unit filename="/home/catswill/CLionProjects/oop5/main.cpp">

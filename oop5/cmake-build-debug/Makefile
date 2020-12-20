@@ -143,6 +143,168 @@ oop5/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop5.dir/build.make CMakeFiles/oop5.dir/build
 .PHONY : oop5/fast
 
+Bank.o: Bank.cpp.o
+
+.PHONY : Bank.o
+
+# target to build an object file
+Bank.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop5.dir/build.make CMakeFiles/oop5.dir/Bank.cpp.o
+.PHONY : Bank.cpp.o
+
+Bank.i: Bank.cpp.i
+
+.PHONY : Bank.i
+
+# target to preprocess a source file
+Bank.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop5.dir/build.make CMakeFiles/oop5.dir/Bank.cpp.i
+.PHONY : Bank.cpp.i
+
+Bank.s: Bank.cpp.s
+
+.PHONY : Bank.s
+
+# target to generate assembly for a file
+Bank.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop5.dir/build.make CMakeFiles/oop5.dir/Bank.cpp.s
+.PHONY : Bank.cpp.s
+
+Client.o: Client.cpp.o
+
+.PHONY : Client.o
+
+# target to build an object file
+Client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop5.dir/build.make CMakeFiles/oop5.dir/Client.cpp.o
+.PHONY : Client.cpp.o
+
+Client.i: Client.cpp.i
+
+.PHONY : Client.i
+
+# target to preprocess a source file
+Client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop5.dir/build.make CMakeFiles/oop5.dir/Client.cpp.i
+.PHONY : Client.cpp.i
+
+Client.s: Client.cpp.s
+
+.PHONY : Client.s
+
+# target to generate assembly for a file
+Client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop5.dir/build.make CMakeFiles/oop5.dir/Client.cpp.s
+.PHONY : Client.cpp.s
+
+CreditAccount.o: CreditAccount.cpp.o
+
+.PHONY : CreditAccount.o
+
+# target to build an object file
+CreditAccount.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop5.dir/build.make CMakeFiles/oop5.dir/CreditAccount.cpp.o
+.PHONY : CreditAccount.cpp.o
+
+CreditAccount.i: CreditAccount.cpp.i
+
+.PHONY : CreditAccount.i
+
+# target to preprocess a source file
+CreditAccount.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop5.dir/build.make CMakeFiles/oop5.dir/CreditAccount.cpp.i
+.PHONY : CreditAccount.cpp.i
+
+CreditAccount.s: CreditAccount.cpp.s
+
+.PHONY : CreditAccount.s
+
+# target to generate assembly for a file
+CreditAccount.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop5.dir/build.make CMakeFiles/oop5.dir/CreditAccount.cpp.s
+.PHONY : CreditAccount.cpp.s
+
+DebitAccount.o: DebitAccount.cpp.o
+
+.PHONY : DebitAccount.o
+
+# target to build an object file
+DebitAccount.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop5.dir/build.make CMakeFiles/oop5.dir/DebitAccount.cpp.o
+.PHONY : DebitAccount.cpp.o
+
+DebitAccount.i: DebitAccount.cpp.i
+
+.PHONY : DebitAccount.i
+
+# target to preprocess a source file
+DebitAccount.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop5.dir/build.make CMakeFiles/oop5.dir/DebitAccount.cpp.i
+.PHONY : DebitAccount.cpp.i
+
+DebitAccount.s: DebitAccount.cpp.s
+
+.PHONY : DebitAccount.s
+
+# target to generate assembly for a file
+DebitAccount.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop5.dir/build.make CMakeFiles/oop5.dir/DebitAccount.cpp.s
+.PHONY : DebitAccount.cpp.s
+
+Deposit.o: Deposit.cpp.o
+
+.PHONY : Deposit.o
+
+# target to build an object file
+Deposit.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop5.dir/build.make CMakeFiles/oop5.dir/Deposit.cpp.o
+.PHONY : Deposit.cpp.o
+
+Deposit.i: Deposit.cpp.i
+
+.PHONY : Deposit.i
+
+# target to preprocess a source file
+Deposit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop5.dir/build.make CMakeFiles/oop5.dir/Deposit.cpp.i
+.PHONY : Deposit.cpp.i
+
+Deposit.s: Deposit.cpp.s
+
+.PHONY : Deposit.s
+
+# target to generate assembly for a file
+Deposit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop5.dir/build.make CMakeFiles/oop5.dir/Deposit.cpp.s
+.PHONY : Deposit.cpp.s
+
+Translations.o: Translations.cpp.o
+
+.PHONY : Translations.o
+
+# target to build an object file
+Translations.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop5.dir/build.make CMakeFiles/oop5.dir/Translations.cpp.o
+.PHONY : Translations.cpp.o
+
+Translations.i: Translations.cpp.i
+
+.PHONY : Translations.i
+
+# target to preprocess a source file
+Translations.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop5.dir/build.make CMakeFiles/oop5.dir/Translations.cpp.i
+.PHONY : Translations.cpp.i
+
+Translations.s: Translations.cpp.s
+
+.PHONY : Translations.s
+
+# target to generate assembly for a file
+Translations.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop5.dir/build.make CMakeFiles/oop5.dir/Translations.cpp.s
+.PHONY : Translations.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +341,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... oop5"
+	@echo "... Bank.o"
+	@echo "... Bank.i"
+	@echo "... Bank.s"
+	@echo "... Client.o"
+	@echo "... Client.i"
+	@echo "... Client.s"
+	@echo "... CreditAccount.o"
+	@echo "... CreditAccount.i"
+	@echo "... CreditAccount.s"
+	@echo "... DebitAccount.o"
+	@echo "... DebitAccount.i"
+	@echo "... DebitAccount.s"
+	@echo "... Deposit.o"
+	@echo "... Deposit.i"
+	@echo "... Deposit.s"
+	@echo "... Translations.o"
+	@echo "... Translations.i"
+	@echo "... Translations.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

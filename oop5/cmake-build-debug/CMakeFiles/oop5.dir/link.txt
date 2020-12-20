@@ -1,1 +1,1 @@
-/usr/bin/g++  -g   CMakeFiles/oop5.dir/main.cpp.o  -o oop5 
+/usr/bin/g++  -g   CMakeFiles/oop5.dir/main.cpp.o CMakeFiles/oop5.dir/CreditAccount.cpp.o CMakeFiles/oop5.dir/Bank.cpp.o CMakeFiles/oop5.dir/Client.cpp.o CMakeFiles/oop5.dir/Deposit.cpp.o CMakeFiles/oop5.dir/DebitAccount.cpp.o CMakeFiles/oop5.dir/Translations.cpp.o  -o oop5 
