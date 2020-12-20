@@ -22,6 +22,7 @@ void CreditAccount::TopUp(float add) {
     money += add;
 }
 
+
 void CreditAccount::TransferMoney(IAccount *account, float _money) {
 
     PayCommission();
@@ -39,9 +40,11 @@ void CreditAccount::TransferMoney(IAccount *account, float _money) {
     money -= _money;
 }
 
+
 void CreditAccount::GetTransfer(float _money) {
     money += _money;
 }
+
 
 void CreditAccount::PayCommission() {
     if (money > 0) {
@@ -53,13 +56,16 @@ void CreditAccount::PayCommission() {
     }
 }
 
+
 bu::uuid CreditAccount::GetID() {
     return uuid;
 }
 
+
 float CreditAccount::GetBalance() {
     return money;
 }
+
 
 void CreditAccount::SetCommission(float commission_) {
     commission = commission_;
