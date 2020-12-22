@@ -21,18 +21,3 @@ public:
     virtual float GetBalance() = 0;
     virtual void SetCommission(float commission_) = 0;
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
