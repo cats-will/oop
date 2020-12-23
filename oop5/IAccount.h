@@ -1,4 +1,5 @@
-#pragma once
+#ifndef OOP5_IACCOUNT_H
+#define OOP5_IACCOUNT_H
 
 #include <boost/uuid/uuid.hpp>
 #include <boost/uuid/uuid_generators.hpp>
@@ -19,7 +20,6 @@ public:
     virtual void GetTransfer(float _money) = 0;
     virtual bu::uuid GetID() = 0;
     virtual float GetBalance() = 0;
-    virtual void SetCommission(float commission_) = 0;
 };
 
 
@@ -36,3 +36,4 @@ public:
 
 
 
+#endif //OOP5_IACCOUNT_H
