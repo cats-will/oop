@@ -2,7 +2,6 @@
 
 #include "IEmployee.h"
 
-
 class Employee : public IEmployee {
     std::string name;
     IEmployee* leader;
@@ -12,5 +11,5 @@ public:
     void AddSubordinate(IEmployee* subordinate) override;
     std::string GetName() const override;
     void Print(int level = 0) override;
-
+    IEmployee* GetLeader() const override;
 };

@@ -10,6 +10,7 @@ void Director::SetLeader(IEmployee *leader_) {
 
 void Director::AddSubordinate(IEmployee *subordinate) {
     subordinates.push_back(subordinate);
+    subordinate->SetLeader(this);
 }
 
 std::string Director::GetName() const {
@@ -25,4 +26,8 @@ void Director::Print(int level) {
         }
         it->Print(level + 1);
     }
+}
+
+IEmployee *Director::GetLeader() const {
+    return leader;
 }

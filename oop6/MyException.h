@@ -22,3 +22,17 @@ public:
         return "The employee is already on the list";
     }
 };
+
+class TaskNameException : public std::exception {
+public:
+    virtual const char* what() const noexcept {
+        return "The task with this name is already exists";
+    }
+};
+
+class TaskExistenceException : public std::exception {
+public:
+    virtual const char* what() const noexcept {
+        return "No such task";
+    }
+};

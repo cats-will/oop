@@ -11,6 +11,6 @@ public:
     void SetLeader(IEmployee* leader_) override;
     void AddSubordinate(IEmployee* subordinate) override;
     std::string GetName() const override;
+    IEmployee* GetLeader() const override;
     void Print(int level = 0) override;
-
 };

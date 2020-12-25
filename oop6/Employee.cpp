@@ -6,6 +6,7 @@ Employee::Employee(std::string name_) : name(std::move(name_)) {}
 
 void Employee::SetLeader(IEmployee *leader_) {
     leader = leader_;
+    //leader_->AddSubordinate(this);
 }
 
 void Employee::AddSubordinate(IEmployee *subordinate) {
@@ -18,4 +19,8 @@ std::string Employee::GetName() const {
 
 void Employee::Print(int level) {
     std::cout << "Employee - " << GetName();
+}
+
+IEmployee *Employee::GetLeader() const {
+    return leader;
 }
