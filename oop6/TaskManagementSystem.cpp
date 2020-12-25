@@ -181,3 +181,7 @@ void TaskManagementSystem::GetTasksAssignedToSubordinates(IEmployee *leader) {
         throw TaskExistenceException();
     }
 }
+
+std::list<Task> TaskManagementSystem::GetTasks() const {
+    return tasks;
+}

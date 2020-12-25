@@ -9,8 +9,10 @@
 #include <boost/uuid/uuid_io.hpp>
 
 #include "boost/date_time/posix_time/posix_time.hpp"
+#include "boost/date_time/gregorian/gregorian.hpp"
 
 namespace bu = boost::uuids;
+namespace bg = boost::gregorian;
 
 #include "MyException.h"
 

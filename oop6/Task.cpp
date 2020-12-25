@@ -69,6 +69,19 @@ std::string Task::GetComment() const {
     return comment;
 }
 
+void Task::ShowChanges() {
+    std::cout << "UUID: " << uuid << '\n';
+    std::cout << "Name: " << name << '\n';
+    std::cout << "Creation time: " << Time << '\n';
+    std::cout << "Description: " << description << '\n';
+    for (auto &item : changes) {
+        std::cout << "Commit's time: " << item.Time << '\n';
+        std::cout << "Current owner: " << item.owner << '\n';
+        std::cout << "Current state: " << item.state_now << '\n';
+        std::cout << "Comment: " << item.comment << "\n\n";
+    }
+}
+
 
 
 

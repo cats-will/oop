@@ -35,4 +35,6 @@ public:
     boost::posix_time::ptime GetTime() const;
     IEmployee* GetOwner() const;
     std::list<Task> GetChanges() const;
+
+    void ShowChanges();
 };

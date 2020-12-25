@@ -36,3 +36,10 @@ public:
         return "No such task";
     }
 };
+
+class WrongDayException : public std::exception {
+public:
+    virtual const char* what() const noexcept {
+        return "You can't add it to day report";
+    }
+};

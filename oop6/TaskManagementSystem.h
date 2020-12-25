@@ -25,4 +25,6 @@ public:
 
     void ShowState(std::string name);
     void ShowTask(std::string name);
+
+    std::list<Task> GetTasks() const;
 };
