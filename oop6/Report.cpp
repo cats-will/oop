@@ -177,5 +177,9 @@ void Report::ShowSprintCompleteTasks() {
 }
 
 void Report::ChangeReportState() {
+    bg::date now = bg::day_clock::local_day();
+    if (sprint_period.contains(now)) {
+        throw ChangeReportException();
+    }
     state_now = resolved;
 }

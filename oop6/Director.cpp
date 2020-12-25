@@ -32,6 +32,3 @@ IEmployee *Director::GetLeader() const {
     return leader;
 }
 
-void Director::ChangeReportState(Report &report) {
-    throw DirectorReportException();
-}

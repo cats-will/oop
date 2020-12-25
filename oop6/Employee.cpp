@@ -23,7 +23,3 @@ void Employee::Print(int level) {
 IEmployee *Employee::GetLeader() const {
     return leader;
 }
-
-void Employee::ChangeReportState(Report &report) {
-    throw EmployeeReportException();
-}

@@ -51,16 +51,10 @@ public:
     }
 };
 
-class EmployeeReportException : public std::exception {
+class ChangeReportException : public std::exception {
 public:
     virtual const char* what() const noexcept {
-        return "An ordinary employee can't change report state";
+        return "Reporting period has not passed yet";
     }
 };
 
-class DirectorReportException : public std::exception {
-public:
-    virtual const char* what() const noexcept {
-        return "An ordinary director can't change report state";
-    }
-};

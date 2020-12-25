@@ -15,7 +15,6 @@ namespace bu = boost::uuids;
 namespace bg = boost::gregorian;
 
 #include "MyException.h"
-#include "Report.h"
 
 class IEmployee {
 public:
@@ -24,5 +23,4 @@ public:
     virtual std::string GetName() const = 0;
     virtual IEmployee* GetLeader() const = 0;
     virtual void Print(int level = 0) = 0;
-    virtual void ChangeReportState(Report &report) = 0;
 };
