@@ -43,3 +43,24 @@ public:
         return "You can't add it to day report";
     }
 };
+
+class SprintPeriodException : public std::exception {
+public:
+    virtual const char* what() const noexcept {
+        return "You can't add it to sprint report, period of this report has passed";
+    }
+};
+
+class EmployeeReportException : public std::exception {
+public:
+    virtual const char* what() const noexcept {
+        return "An ordinary employee can't change report state";
+    }
+};
+
+class DirectorReportException : public std::exception {
+public:
+    virtual const char* what() const noexcept {
+        return "An ordinary director can't change report state";
+    }
+};

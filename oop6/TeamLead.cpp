@@ -51,6 +51,6 @@ IEmployee *TeamLead::GetLeader() const {
     throw TeamLeadException();
 }
 
-
-
-
+void TeamLead::ChangeReportState(Report &report) {
+    report.ChangeReportState();
+}

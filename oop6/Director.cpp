@@ -31,3 +31,7 @@ void Director::Print(int level) {
 IEmployee *Director::GetLeader() const {
     return leader;
 }
+
+void Director::ChangeReportState(Report &report) {
+    throw DirectorReportException();
+}

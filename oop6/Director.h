@@ -13,4 +13,5 @@ public:
     std::string GetName() const override;
     IEmployee* GetLeader() const override;
     void Print(int level = 0) override;
+    void ChangeReportState(Report &report) override;
 };
